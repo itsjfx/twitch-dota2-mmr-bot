@@ -4,7 +4,7 @@
 	by jfx.
 
 	Provides basic functionality to grab MMR from a user using node-dota2 and say it in a twitch chat.
-	I didn't spend long making this, but I wanted to make a proof-of-concept in case other people were interested in having a bot like this in their twitch chat.
+	I didn't spend lots of time making this, but I wanted to make a proof-of-concept in case other people were interested in having a bot like this in their twitch chat.
 	
 	TO-DO:
 		* Get assignid to work and store twitchids-steamids in a database (sqlite)?
