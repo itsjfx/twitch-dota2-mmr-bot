@@ -9,7 +9,7 @@
 	TO-DO:
 		* Get assignid to work and store twitchids-steamids in a database (sqlite)?
 		* Perhaps have one bot doing the work and then just get them in peoples channels and shit
-		* Code/config rework at some point since its a little garbled right now
+		* Code/config rework at some point since its a little garbled right now.
 
 		
 	Feel free to do whatever you want with this
