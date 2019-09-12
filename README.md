@@ -13,3 +13,9 @@ The cost of doing this is you sacrifice at least one of your slots (if you featu
 npm install
 edit the config
 run the app :d
+
+# To do
+* It would be nice to have a module/class for the steam and dota management part of this
+* Integrate this with a database instead of a config file, this way I can host it and get people to use it (similar to 9kmmrbot)
+* Figure out if the player has finished a match, and if so cache the data until they finish their match (since MMR wont update in the mean time). This will probably have to be done since the endpoint for getting players profile cards is heavily rate limited and I can see this being an issue. Right now this works really well just being used on small streams.
+* Maybe intergrate this into 9kmmrbot so everyone can enjoy it, and implement it with their !lg or !score API so it only refreshes when the player has finished a game.
