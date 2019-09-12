@@ -7,7 +7,7 @@ Actually you still can! But it's a bit tricky. The streamer/person you're grabbi
 
 You can do so if you customise node-dota2 to edit your slots on your profile (a tool I'm planning on making to make this easy), or you can follow this tutorial: https://reddit.com/r/DotA2/comments/95ny0e/how_to_make_mmr_progress_trackable_on_dotabuff/ - However be mindful it is a sizeable download.
 
-The cost of doing this is you lose at least one of your slots (if you feature at least one MMR) since it's useless in-game, but for your stream they get to track your MMR so that's cool :)
+The cost of doing this is you sacrifice at least one of your slots (if you feature at least one MMR) since it's useless in-game, but for your stream they get to track your MMR so that's cool :)
 
 # How to
 npm install
