@@ -1,0 +1,25 @@
+{
+  "name": "twitch-dota2-mmr-bot",
+  "version": "2.0.0",
+  "description": "gets a streamers mmr from their dota profile's featured cards and outputs it to their twitch chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjfx/twitch-dota2-mmr-bot.git"
+  },
+  "author": "jfx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsjfx/twitch-dota2-mmr-bot/issues"
+  },
+  "homepage": "https://github.com/itsjfx/twitch-dota2-mmr-bot#readme",
+  "dependencies": {
+    "dota2": "^7.0.3",
+    "prompt": "^1.0.0",
+    "steam-totp": "^2.1.1",
+    "twitch-js": "^1.2.17"
+  }
+}
