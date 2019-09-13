@@ -60,11 +60,13 @@ function addChatListener() {
 				if (mmrSlots.length > 0) {
 					// Do core mmr first, alternatively put the largest first but this seems the best
 					let core = mmrSlots.find(slot => (slot.stat_id === dota2.schema.CMsgDOTAProfileCard.EStatID.k_eStat_CoreRank));
-					str = `Core MMR: ${core.stat_score} | `;
+					if (core)
+						str = `Core MMR: ${core.stat_score} | `;
 					
 					// Write support now
 					let support = mmrSlots.find(slot => (slot.stat_id === dota2.schema.CMsgDOTAProfileCard.EStatID.k_eStat_SupportRank));
-					str += `Support MMR: ${support.stat_score}`;
+					if (support)
+						str += `Support MMR: ${support.stat_score}`;
 					
 					twitchClient.say(channel, str);
 				} else {
