@@ -20,6 +20,6 @@
     "dota2": "^7.0.3",
     "prompt": "^1.0.0",
     "steam-totp": "^2.1.1",
-    "twitch-js": "^1.2.17"
+    "twitch-js": "^2.0.0-beta.45"
   }
 }
